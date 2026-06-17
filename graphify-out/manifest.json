@@ -1,0 +1,322 @@
+{
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\playwright.config.ts": {
+    "mtime": 1781675793.6562693,
+    "hash": "ef2348186e089a09f3701ae53cd76811"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\vite.config.ts": {
+    "mtime": 1781676783.6945224,
+    "hash": "22278737cda9109563c166e629fc4983"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\scripts\\visual_qa.py": {
+    "mtime": 1781673676.0757887,
+    "hash": "64731671d913510c454a5aef047668b7"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\App.tsx": {
+    "mtime": 1781677902.5567443,
+    "hash": "e1c5c75f501a7c56996d5a815a7c554c"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\content.ts": {
+    "mtime": 1781677821.86431,
+    "hash": "370b8613679ac97c877dff92f8f5741f"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\i18n.ts": {
+    "mtime": 1781677894.3507812,
+    "hash": "07699c10c18996eb233fdd7e0d21047c"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\main.tsx": {
+    "mtime": 1781640407.600917,
+    "hash": "162ec65b68ab75a1150515cadd17753c"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\paths.ts": {
+    "mtime": 1781676783.6935275,
+    "hash": "be4b76d80282f9a91e9f3ef86f430b2a"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\tests\\home.spec.ts": {
+    "mtime": 1781678229.3158598,
+    "hash": "c5edcfe33893a815e4d55dd6902208d4"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\index.html": {
+    "mtime": 1781676793.8216374,
+    "hash": "53cff680c2672e85fa34ecbbec971b66"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\docs\\research\\nero.md": {
+    "mtime": 1781666669.6044893,
+    "hash": "7d21bd24b2635325a35bb52134248aa3"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\docs\\research\\premium-hospitality-patterns.md": {
+    "mtime": 1781673682.4369915,
+    "hash": "9c607cd199da644d3365e22e838fb221"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\favicon.png": {
+    "mtime": 1780031677.140786,
+    "hash": "87c604588583213815d41321a85d6aa0"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\favicon.svg": {
+    "mtime": 1781639942.802563,
+    "hash": "7e840862161341271697daa99a40d76b"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\icons.svg": {
+    "mtime": 1781639942.8210442,
+    "hash": "3b4fcfcf393eca4d264dca4a4663bc37"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-cappuccino.webp": {
+    "mtime": 1781640679.042737,
+    "hash": "0c29b262c2b4e9ce43337cfc58af1e1a"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-club.webp": {
+    "mtime": 1781640679.6337612,
+    "hash": "3ef8f159916690d1550f9bfd6f94ec33"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-copper-lounge.webp": {
+    "mtime": 1781666432.7433777,
+    "hash": "a8493bb86356cbc2669dad7058b06502"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-day-lounge.webp": {
+    "mtime": 1781640678.926651,
+    "hash": "1a12821ae0733223f8c59b1b2ad47394"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-espresso.webp": {
+    "mtime": 1781640679.2689557,
+    "hash": "6257b3c61170795b1ebf6c602e4f5597"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-fireplace-lounge.webp": {
+    "mtime": 1781640678.7259524,
+    "hash": "3e9db6610c65d822a1995b320a5a5408"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-hero-interior.webp": {
+    "mtime": 1781640678.1658936,
+    "hash": "ec6ff744fd7a004e281910db7681c022"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-logo.webp": {
+    "mtime": 1781640679.6787634,
+    "hash": "bc532feb052637109970990798e09d22"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-pasta.webp": {
+    "mtime": 1781640679.44793,
+    "hash": "28d8f214f3df0d7b9e257605e9a5a2c2"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-stone-terrace.webp": {
+    "mtime": 1781640678.5258887,
+    "hash": "bb2da3001094b96276a5537d8db5de14"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\refined\\nero-street-arrival.webp": {
+    "mtime": 1781666432.390353,
+    "hash": "cbb92ccf6188e95c8150285d80a31221"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\003.jpg": {
+    "mtime": 1781640536.1018546,
+    "hash": "35ce6ddc5c22fd6c3f49f61cf82b533c"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\013.jpg": {
+    "mtime": 1781640536.2358537,
+    "hash": "12f164412653ab09c3fc0bff9bcc340a"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\0151.jpg": {
+    "mtime": 1781640536.3873582,
+    "hash": "158acc1d8489ee5ac32cb17050af2ddc"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\1900419_826367500717973_9182832211321033359_o.jpg": {
+    "mtime": 1781640536.645427,
+    "hash": "863693fe6ca27ff9c67c9def0cc3c93a"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\caputsinonero.jpg": {
+    "mtime": 1781640537.4693375,
+    "hash": "0d1285090addf0c8f401b72b05c43d05"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\club.jpg": {
+    "mtime": 1781640538.7178771,
+    "hash": "cfa77a55c5cfd77d892f1eb85db9fdc0"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\DSC_0777.jpg": {
+    "mtime": 1781640538.487013,
+    "hash": "f6b8039b711eb5047882481ffa564754"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\DSC_2449.jpg": {
+    "mtime": 1781640536.7891269,
+    "hash": "fba620855e50f0410db476dad271dca7"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\DSC_2521.jpg": {
+    "mtime": 1781640536.995192,
+    "hash": "61940ec7588970078c9f704c8c0b5e84"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\esp.jpg": {
+    "mtime": 1781640537.3378053,
+    "hash": "63810c1a2a057a32808cac10aa3fb2b6"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\food.jpg": {
+    "mtime": 1781640537.6120238,
+    "hash": "4f76ac39d97414ce2742fc87b9b9967f"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\kotopoulo-egkraten.jpg": {
+    "mtime": 1781640538.86627,
+    "hash": "e6199ec40b34b1d4256b61e538cc9e97"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\nerologo.png": {
+    "mtime": 1781640537.1578634,
+    "hash": "22c0a331df7c241a2ff19753207efa7e"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\nerologo3.png": {
+    "mtime": 1781640537.0599728,
+    "hash": "0fe24974472c47133d7f459c45ce54b5"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\\u0391\u03bc\u03b1\u03c1\u03c4\u03b9\u03c4\u03c3\u03b9\u03ac\u03bd\u03b1.jpg": {
+    "mtime": 1781640539.116852,
+    "hash": "2abf8af8760c7f2b196d0d598b4dad47"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\\u039a\u03bf\u03c4\u03bf\u03bb\u03ad\u03c4\u03b5\u03c2-Nero.jpg": {
+    "mtime": 1781640539.3676133,
+    "hash": "9ad77c588745d97a15ea555a16d5c9f0"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\public\\assets\\sourced\\nero-official\\\u039c\u03b5\u03bd\u03c4\u03b1\u03b3\u03b9\u03cc\u03bd-\u0393\u03b1\u03bb\u03bf\u03c0\u03bf\u03cd\u03bb\u03b1\u03c2.jpg": {
+    "mtime": 1781640539.6047158,
+    "hash": "c57587f2e5dd4d7b0b1dcba59bb1723b"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\debug-hero-media-only.png": {
+    "mtime": 1781658020.5631526,
+    "hash": "e115ed050c3afa153a81af0655e39a7d"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\debug-hero-section.png": {
+    "mtime": 1781658020.973294,
+    "hash": "d699d1ddeff70672cbe5c15bf614fb8f"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-arrival-desktop.png": {
+    "mtime": 1781673803.492728,
+    "hash": "d031c4e2d7bfd353e02a2ca35010812a"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-arrival-mobile.png": {
+    "mtime": 1781673807.1023097,
+    "hash": "21316563599cdcc179ede44e666521ea"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-desktop-full.png": {
+    "mtime": 1781642060.104041,
+    "hash": "349de3c718cb0ac950352fe4a0be28c9"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-desktop.png": {
+    "mtime": 1781673791.307058,
+    "hash": "2f2ea5be29d68bf5a5a0693e23bde7c3"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-dossier-desktop.png": {
+    "mtime": 1781673817.2434125,
+    "hash": "9f9e76b10842addae61a4453064a6e9d"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-dossier-mobile.png": {
+    "mtime": 1781673820.7731087,
+    "hash": "5a935115e56c8e99b7ebc42bf2fb65e1"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-editorial-preview-desktop.png": {
+    "mtime": 1781673485.409114,
+    "hash": "e762b3020682750ac7b327eb7e664700"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-editorial-proof-desktop.png": {
+    "mtime": 1781673824.126317,
+    "hash": "d17e10f6d6ad590b3b5690445f554862"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-editorial-proof-mobile.png": {
+    "mtime": 1781673827.861039,
+    "hash": "d96c4b75b2a2f6ec8ec69f138f9aafe0"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-footer-mobile.png": {
+    "mtime": 1781673500.0608861,
+    "hash": "4ff564fb365e1e94f30c760b07726e8c"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-hero-preview-desktop.png": {
+    "mtime": 1781673481.5216238,
+    "hash": "4a1749b3394ed6b70f1fb166093444e8"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-image-preview-desktop.png": {
+    "mtime": 1781673478.6468606,
+    "hash": "ab82f76f7eacfa157242761b3a9f3cfd"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-image-preview-mobile.png": {
+    "mtime": 1781673489.7575297,
+    "hash": "31b925d7f6d1f144b8f004b89ef1e786"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-menu-crop.png": {
+    "mtime": 1781642107.9834185,
+    "hash": "23435663d5029fc2b1d90d7876f72f48"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-menu-desktop.png": {
+    "mtime": 1781673845.0326972,
+    "hash": "dc0141173264a045e2d0e308a1092a68"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-menu-mobile.png": {
+    "mtime": 1781673446.1774962,
+    "hash": "39384fd2907e5ffa3bdc6de9be916d6a"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-menu-proof-desktop.png": {
+    "mtime": 1781673456.6998985,
+    "hash": "a9f9d00cf1bb145952612c9b65020a76"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-menu-proof-mobile.png": {
+    "mtime": 1781673460.7475653,
+    "hash": "db48edc494651e19f8ec86f5ab5e2f30"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-menu-route-desktop.png": {
+    "mtime": 1781673449.5920098,
+    "hash": "9b37576d0141fca73f05eab9ec472372"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-menu-route-mobile.png": {
+    "mtime": 1781673453.3447335,
+    "hash": "65d845a420d6ae2d3808a7e27175705b"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-mobile-compact.png": {
+    "mtime": 1781673800.186412,
+    "hash": "408de65c2cc7581975c6289549b0902f"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-mobile.png": {
+    "mtime": 1781673797.154663,
+    "hash": "5b0fca57d43e71053194f63da3c1332b"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-paths-desktop.png": {
+    "mtime": 1781673831.2381375,
+    "hash": "c1ef57f80f5e9198ac13d921b04136c9"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-paths-mobile.png": {
+    "mtime": 1781673834.9633276,
+    "hash": "e69831c0b432cdfd98742bcf163b227a"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-programme-desktop.png": {
+    "mtime": 1781673838.254174,
+    "hash": "b252bf334ac976abf1fea564ceed9ab4"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-programme-mobile.png": {
+    "mtime": 1781673841.7987182,
+    "hash": "f17548e53a4102e2c8e24e7667fcbecb"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-route-desktop.png": {
+    "mtime": 1781673810.4414527,
+    "hash": "39a6ae444537e6421415bc357025a56f"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-route-mobile.png": {
+    "mtime": 1781673813.981337,
+    "hash": "31ad33fc1a8a18e59d08229c2151da18"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-service-desktop.png": {
+    "mtime": 1781673464.1328661,
+    "hash": "ddf78539e18ed3ae908b84e1cb8d14a7"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-service-mobile.png": {
+    "mtime": 1781673467.7798135,
+    "hash": "270f7b56a8a9393355afc66a84cb38b8"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-space-desktop.png": {
+    "mtime": 1781673471.1137886,
+    "hash": "7d4b5c38751ac88d38a0e30659359920"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-space-mobile.png": {
+    "mtime": 1781673474.7787282,
+    "hash": "a7189dd457896e8a98254ca11fe54007"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-tablet.png": {
+    "mtime": 1781673793.913287,
+    "hash": "32284d1988fdcaa9935b9ddf42640319"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-visit-desktop.png": {
+    "mtime": 1781673493.0155158,
+    "hash": "cf44a99c47088a05e3eeddbd9f9eb5a1"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-visit-mobile.png": {
+    "mtime": 1781673496.6161733,
+    "hash": "7b4a4f93eb6bee85920c1060e6b3b333"
+  }
+}
