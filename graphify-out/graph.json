@@ -189,7 +189,7 @@
       "source_file": "src/components/IntroBand.tsx",
       "source_location": "L1",
       "id": "src_components_introband_tsx",
-      "community": 15,
+      "community": 14,
       "norm_label": "introband.tsx"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "src/components/IntroBand.tsx",
       "source_location": "L7",
       "id": "components_introband_introband",
-      "community": 15,
+      "community": 14,
       "norm_label": "introband()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "src/components/SkipLinks.tsx",
       "source_location": "L1",
       "id": "src_components_skiplinks_tsx",
-      "community": 14,
+      "community": 13,
       "norm_label": "skiplinks.tsx"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "src/components/SkipLinks.tsx",
       "source_location": "L7",
       "id": "components_skiplinks_skiplinks",
-      "community": 14,
+      "community": 13,
       "norm_label": "skiplinks()"
     },
     {
@@ -468,7 +468,7 @@
       "source_file": "src/hooks/useClock.ts",
       "source_location": "L1",
       "id": "src_hooks_useclock_ts",
-      "community": 19,
+      "community": 17,
       "norm_label": "useclock.ts"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "src/hooks/useClock.ts",
       "source_location": "L3",
       "id": "hooks_useclock_useclock",
-      "community": 19,
+      "community": 17,
       "norm_label": "useclock()"
     },
     {
@@ -486,7 +486,7 @@
       "source_file": "src/hooks/useCustomCursor.ts",
       "source_location": "L1",
       "id": "src_hooks_usecustomcursor_ts",
-      "community": 13,
+      "community": 20,
       "norm_label": "usecustomcursor.ts"
     },
     {
@@ -495,7 +495,7 @@
       "source_file": "src/hooks/useCustomCursor.ts",
       "source_location": "L3",
       "id": "hooks_usecustomcursor_usecustomcursor",
-      "community": 13,
+      "community": 20,
       "norm_label": "usecustomcursor()"
     },
     {
@@ -504,7 +504,7 @@
       "source_file": "src/hooks/useHeroDepth.ts",
       "source_location": "L1",
       "id": "src_hooks_useherodepth_ts",
-      "community": 17,
+      "community": 19,
       "norm_label": "useherodepth.ts"
     },
     {
@@ -513,7 +513,7 @@
       "source_file": "src/hooks/useHeroDepth.ts",
       "source_location": "L3",
       "id": "hooks_useherodepth_useherodepth",
-      "community": 17,
+      "community": 19,
       "norm_label": "useherodepth()"
     },
     {
@@ -540,7 +540,7 @@
       "source_file": "src/hooks/useSiteMotion.ts",
       "source_location": "L1",
       "id": "src_hooks_usesitemotion_ts",
-      "community": 16,
+      "community": 15,
       "norm_label": "usesitemotion.ts"
     },
     {
@@ -549,7 +549,7 @@
       "source_file": "src/hooks/useSiteMotion.ts",
       "source_location": "L3",
       "id": "hooks_usesitemotion_usesitemotion",
-      "community": 16,
+      "community": 15,
       "norm_label": "usesitemotion()"
     },
     {
@@ -718,7 +718,7 @@
       "label": "MockDate",
       "file_type": "code",
       "source_file": "tests/home.spec.ts",
-      "source_location": "L567",
+      "source_location": "L568",
       "id": "tests_home_spec_mockdate",
       "community": 11,
       "norm_label": "mockdate"
@@ -727,7 +727,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "tests/home.spec.ts",
-      "source_location": "L568",
+      "source_location": "L569",
       "id": "tests_home_spec_mockdate_constructor",
       "community": 11,
       "norm_label": ".constructor()"
@@ -736,7 +736,7 @@
       "label": ".now()",
       "file_type": "code",
       "source_file": "tests/home.spec.ts",
-      "source_location": "L577",
+      "source_location": "L578",
       "id": "tests_home_spec_mockdate_now",
       "community": 11,
       "norm_label": ".now()"
@@ -890,7 +890,7 @@
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L86",
-      "community": 18,
+      "community": 16,
       "norm_label": "initializegoogletranslateelement()",
       "id": "src_app_initializegoogletranslateelement"
     },
@@ -899,7 +899,7 @@
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L104",
-      "community": 18,
+      "community": 16,
       "norm_label": "ensuregoogletranslatewidget()",
       "id": "src_app_ensuregoogletranslatewidget"
     },
@@ -917,7 +917,7 @@
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L172",
-      "community": 20,
+      "community": 18,
       "norm_label": "cleargoogletranslatestate()",
       "id": "src_app_cleargoogletranslatestate"
     },
@@ -1016,7 +1016,7 @@
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L825",
-      "community": 20,
+      "community": 18,
       "norm_label": "handlelanguagechange()",
       "id": "src_app_handlelanguagechange"
     },
@@ -3839,5 +3839,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "358e5a4bc0ca8d01dc841b1fd4ec1e0b0a1c06ed"
+  "built_at_commit": "bd62e0bb4a1a74b0235734314d7aaff980e34de9"
 }

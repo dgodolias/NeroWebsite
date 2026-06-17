@@ -2127,16 +2127,6 @@ h2 {
   line-height: 1.6;
 }
 
-.signature-menu em {
-  position: absolute;
-  right: 20px;
-  bottom: 18px;
-  color: var(--gold);
-  font-size: 1.8rem;
-  font-style: normal;
-  font-weight: 600;
-}
-
 .service-rail {
   display: grid;
   grid-template-columns: 0.74fr 0.9fr 1.32fr 1.18fr;

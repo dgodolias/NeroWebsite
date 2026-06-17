@@ -1,7 +1,7 @@
 # Graph Report - NeroWebsite  (2026-06-17)
 
 ## Corpus Check
-- 44 files · ~1,314,872 words
+- 44 files · ~1,314,858 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `358e5a4b`
+- Built from commit: `bd62e0bb`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -106,7 +106,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Why does `translateContent()` connect `Community 9` to `Community 0`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `App()` connect `Community 2` to `Community 0`, `Community 7`, `Community 13`, `Community 16`, `Community 17`, `Community 19`?**
+- **Why does `App()` connect `Community 2` to `Community 0`, `Community 7`, `Community 15`, `Community 17`, `Community 19`, `Community 20`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Are the 11 inferred relationships involving `App()` (e.g. with `useActiveSection()` and `useClock()`) actually correct?**
   _`App()` has 11 INFERRED edges - model-reasoned connections that need verification._

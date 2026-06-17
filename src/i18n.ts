@@ -316,25 +316,21 @@ export const greekContent = {
       {
         group: 'Coffee',
         name: 'Freddo Espresso',
-        price: '4.4',
         detail: 'Από το τμήμα ESPRESSO του ψηφιακού καταλόγου QuaR.',
       },
       {
         group: 'Brunch',
         name: 'Club Sandwich NERO',
-        price: '9.6',
         detail: 'Κοτόπουλο, bacon, gouda, πατάτες και dressing NERO.',
       },
       {
         group: 'Cocktail',
         name: 'COZA NOSTRA',
-        price: '8.9',
         detail: 'Aged rum, coco rum, fresh pineapple και lime.',
       },
       {
         group: 'Kitchen',
         name: 'Ραβιόλι',
-        price: '9.8',
         detail: 'Με ανθότυρο, σπανάκι και σάλτσα ντομάτας.',
       },
     ],

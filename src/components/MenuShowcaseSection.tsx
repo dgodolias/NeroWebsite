@@ -127,7 +127,6 @@ export function MenuShowcaseSection({ content }: MenuShowcaseSectionProps) {
             <span>{item.group}</span>
             <strong>{item.name}</strong>
             <p>{item.detail}</p>
-            <em>{item.price}</em>
           </a>
         ))}
       </div>

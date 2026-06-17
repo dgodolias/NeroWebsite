@@ -31,6 +31,7 @@ test('menu preview uses QuaR categories and no old website links', async ({ page
   await page.locator('.signature-menu').scrollIntoViewIfNeeded()
   await expect(page.locator('.signature-menu').getByRole('link', { name: /Club Sandwich NERO/ })).toBeVisible()
   await expect(page.locator('.signature-menu').getByRole('link', { name: /COZA NOSTRA/ })).toBeVisible()
+  await expect(page.locator('.signature-menu em')).toHaveCount(0)
 
   const oldLinks = await page
     .locator('a[href*="nerocafe"], a[href*="catalogue"]')
