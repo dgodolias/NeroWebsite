@@ -82,6 +82,42 @@ test('social previews use the real refined Nero hero image', async ({ page }) =>
   expect(socialImageContent).not.toContain('nerocafe.gr')
 })
 
+test('hero depth effects stay cinematic without adding fake actions', async ({ page }, testInfo) => {
+  await page.goto('/')
+
+  const hero = page.locator('.hero')
+  await expect(page.locator('.hero-atmosphere')).toBeVisible()
+  await expect(page.locator('.hero-depth-card')).toHaveCount(2)
+  await expect(page.locator('.hero-title-line')).toHaveCount(3)
+  await expect(page.locator('.hero-title-line').first()).toContainText('Nero')
+
+  const titleAnimationNames = await page
+    .locator('.hero-title-line > span')
+    .evaluateAll((lines) => lines.map((line) => getComputedStyle(line).animationName))
+  expect(titleAnimationNames).toEqual(['heroTitleLineIn', 'heroTitleLineIn', 'heroTitleLineIn'])
+
+  const decorativeLinks = await page.locator('.hero-depth-stack a').evaluateAll((links) => links.length)
+  expect(decorativeLinks).toBe(0)
+
+  if (testInfo.project.name === 'mobile') {
+    await expect(page.locator('.hero-depth-card').first()).toBeHidden()
+    return
+  }
+
+  await expect(page.locator('.hero-depth-card.is-terrace')).toBeVisible()
+  await expect(page.locator('.hero-depth-card.is-copper')).toBeVisible()
+
+  await page.mouse.move(1120, 360)
+  await expect
+    .poll(() =>
+      hero.evaluate((element) => ({
+        x: getComputedStyle(element).getPropertyValue('--hero-x').trim(),
+        y: getComputedStyle(element).getPropertyValue('--hero-y').trim(),
+      })),
+    )
+    .not.toEqual({ x: '0', y: '0' })
+})
+
 test('favicon uses the supplied Nero store logo file', async ({ page }) => {
   await page.goto('/')
 

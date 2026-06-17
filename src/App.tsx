@@ -1,6 +1,6 @@
 ﻿import { useEffect, useRef } from 'react'
 import Lenis from 'lenis'
-import type { PointerEvent as ReactPointerEvent } from 'react'
+import type { CSSProperties, PointerEvent as ReactPointerEvent } from 'react'
 import { useState } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -961,6 +961,56 @@ function App() {
   }, [])
 
   useEffect(() => {
+    const hero = heroRef.current
+    const finePointer = window.matchMedia('(pointer: fine)').matches
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+    if (!hero || !finePointer || reduceMotion) {
+      return undefined
+    }
+
+    let rafId = 0
+    let nextX = 0
+    let nextY = 0
+
+    const updateHeroDepth = () => {
+      rafId = 0
+      hero.style.setProperty('--hero-x', nextX.toFixed(3))
+      hero.style.setProperty('--hero-y', nextY.toFixed(3))
+    }
+
+    const onPointerMove = (event: PointerEvent) => {
+      const rect = hero.getBoundingClientRect()
+      nextX = ((event.clientX - rect.left) / rect.width - 0.5) * 2
+      nextY = ((event.clientY - rect.top) / rect.height - 0.5) * 2
+
+      if (!rafId) {
+        rafId = requestAnimationFrame(updateHeroDepth)
+      }
+    }
+
+    const onPointerLeave = () => {
+      nextX = 0
+      nextY = 0
+
+      if (!rafId) {
+        rafId = requestAnimationFrame(updateHeroDepth)
+      }
+    }
+
+    hero.addEventListener('pointermove', onPointerMove)
+    hero.addEventListener('pointerleave', onPointerLeave)
+
+    return () => {
+      cancelAnimationFrame(rafId)
+      hero.removeEventListener('pointermove', onPointerMove)
+      hero.removeEventListener('pointerleave', onPointerLeave)
+      hero.style.removeProperty('--hero-x')
+      hero.style.removeProperty('--hero-y')
+    }
+  }, [])
+
+  useEffect(() => {
     document.documentElement.lang = language
     window.localStorage.setItem('nero-language', language)
   }, [language])
@@ -1211,6 +1261,30 @@ function App() {
             fetchPriority="high"
           />
           <div className="hero-shade" />
+          <div className="hero-atmosphere" aria-hidden="true" />
+          <div className="hero-grain" aria-hidden="true" />
+          <div className="hero-depth-stack" aria-hidden="true">
+            <figure className="hero-depth-card is-terrace">
+              <img
+                src={publicAsset('/assets/refined/nero-stone-terrace.webp')}
+                alt=""
+                width="1400"
+                height="980"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure className="hero-depth-card is-copper">
+              <img
+                src={publicAsset('/assets/refined/nero-copper-lounge.webp')}
+                alt=""
+                width="1400"
+                height="852"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+          </div>
           <button
             className="image-preview-trigger hero-preview-trigger"
             type="button"
@@ -1234,10 +1308,16 @@ function App() {
             <p className="eyebrow">
               {content.hero.eyebrowPrefix} / {content.venue.area}
             </p>
-            <h1>
-              Nero
-              <span>Cafe Bar</span>
-              <span>Restaurant.</span>
+            <h1 className="hero-title">
+              <span className="hero-title-line" style={{ '--line-index': 0 } as CSSProperties}>
+                <span>Nero</span>
+              </span>
+              <span className="hero-title-line" style={{ '--line-index': 1 } as CSSProperties}>
+                <span>Cafe Bar</span>
+              </span>
+              <span className="hero-title-line" style={{ '--line-index': 2 } as CSSProperties}>
+                <span>Restaurant.</span>
+              </span>
             </h1>
             <p className="hero-copy">
               {content.hero.copy}
