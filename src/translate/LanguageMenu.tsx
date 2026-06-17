@@ -77,9 +77,6 @@ export function LanguageMenu({ content, language, onChange, state }: LanguageMen
           className="language-panel"
           role="listbox"
           aria-label={content.label}
-          data-lenis-prevent
-          data-lenis-prevent-touch
-          data-lenis-prevent-wheel
           onTouchMove={(event) => event.stopPropagation()}
           onWheel={(event) => event.stopPropagation()}
         >

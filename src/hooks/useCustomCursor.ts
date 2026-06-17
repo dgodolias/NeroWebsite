@@ -15,6 +15,7 @@ export function useCustomCursor(cursorRef: RefObject<HTMLDivElement | null>) {
     let cursorX = x
     let cursorY = y
     let rafId = 0
+    let sleepTimer = 0
 
     document.documentElement.classList.add('custom-cursor-ready')
 
@@ -25,9 +26,26 @@ export function useCustomCursor(cursorRef: RefObject<HTMLDivElement | null>) {
       rafId = requestAnimationFrame(tick)
     }
 
+    const wakeCursor = () => {
+      if (!rafId) {
+        rafId = requestAnimationFrame(tick)
+      }
+
+      if (sleepTimer) {
+        window.clearTimeout(sleepTimer)
+      }
+
+      sleepTimer = window.setTimeout(() => {
+        cancelAnimationFrame(rafId)
+        rafId = 0
+        sleepTimer = 0
+      }, 320)
+    }
+
     const onMove = (event: PointerEvent) => {
       x = event.clientX
       y = event.clientY
+      wakeCursor()
     }
 
     const onOver = (event: PointerEvent) => {
@@ -37,10 +55,10 @@ export function useCustomCursor(cursorRef: RefObject<HTMLDivElement | null>) {
 
     window.addEventListener('pointermove', onMove)
     window.addEventListener('pointerover', onOver)
-    rafId = requestAnimationFrame(tick)
 
     return () => {
       cancelAnimationFrame(rafId)
+      window.clearTimeout(sleepTimer)
       window.removeEventListener('pointermove', onMove)
       window.removeEventListener('pointerover', onOver)
       document.documentElement.classList.remove('custom-cursor-ready')

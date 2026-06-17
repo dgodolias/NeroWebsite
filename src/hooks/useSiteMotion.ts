@@ -1,74 +1,44 @@
-import { useEffect, type RefObject } from 'react'
-import Lenis from 'lenis'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useEffect } from 'react'
 
-gsap.registerPlugin(ScrollTrigger)
-
-export function useSiteMotion(heroRef: RefObject<HTMLElement | null>) {
+export function useSiteMotion() {
   useEffect(() => {
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const root = document.documentElement
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const revealItems = Array.from(document.querySelectorAll<HTMLElement>('[data-reveal]'))
 
-    if (reduceMotion) {
+    if (reduceMotion || !('IntersectionObserver' in window)) {
       root.dataset.motion = 'reduced'
-      gsap.set('[data-reveal]', { autoAlpha: 1, y: 0 })
+      revealItems.forEach((item) => {
+        item.dataset.revealed = 'true'
+      })
 
       return () => {
         delete root.dataset.motion
-        gsap.set('[data-reveal]', { clearProps: 'opacity,visibility,transform' })
+        revealItems.forEach((item) => {
+          delete item.dataset.revealed
+        })
       }
     }
 
     root.dataset.motion = 'full'
-    const lenis = new Lenis({ lerp: 0.075, wheelMultiplier: 0.85 })
-    let rafId = 0
 
-    const raf = (time: number) => {
-      lenis.raf(time)
-      rafId = requestAnimationFrame(raf)
-    }
-    rafId = requestAnimationFrame(raf)
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return
+          const item = entry.target as HTMLElement
+          item.dataset.revealed = 'true'
+          observer.unobserve(item)
+        })
+      },
+      { rootMargin: '0px 0px -14% 0px', threshold: 0.08 },
+    )
 
-    lenis.on('scroll', ScrollTrigger.update)
-    gsap.ticker.lagSmoothing(0)
-
-    const hero = heroRef.current
-    const heroImage = hero?.querySelector('.hero-media')
-
-    if (hero && heroImage) {
-      gsap.to(heroImage, {
-        scale: 1.075,
-        filter: 'saturate(0.94) brightness(0.64)',
-        ease: 'none',
-        scrollTrigger: {
-          trigger: hero,
-          start: 'top top',
-          end: 'bottom top',
-          scrub: true,
-        },
-      })
-    }
-
-    gsap.utils.toArray<HTMLElement>('[data-reveal]').forEach((item) => {
-      gsap.fromTo(
-        item,
-        { autoAlpha: 0, y: 42 },
-        {
-          autoAlpha: 1,
-          y: 0,
-          duration: 0.95,
-          ease: 'power3.out',
-          scrollTrigger: { trigger: item, start: 'top 82%' },
-        },
-      )
-    })
+    revealItems.forEach((item) => observer.observe(item))
 
     return () => {
-      cancelAnimationFrame(rafId)
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
-      lenis.destroy()
+      observer.disconnect()
       delete root.dataset.motion
     }
-  }, [heroRef])
+  }, [])
 }

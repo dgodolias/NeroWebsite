@@ -12,16 +12,16 @@
     "hash": "64731671d913510c454a5aef047668b7"
   },
   "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\App.tsx": {
-    "mtime": 1781677902.5567443,
-    "hash": "e1c5c75f501a7c56996d5a815a7c554c"
+    "mtime": 1781681553.802988,
+    "hash": "5ec9f47a0ad7fe920a81704ef2b7061d"
   },
   "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\content.ts": {
     "mtime": 1781677821.86431,
     "hash": "370b8613679ac97c877dff92f8f5741f"
   },
   "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\i18n.ts": {
-    "mtime": 1781677894.3507812,
-    "hash": "07699c10c18996eb233fdd7e0d21047c"
+    "mtime": 1781682442.0019891,
+    "hash": "eecdbf4e4a2764ff12604249c73f953d"
   },
   "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\main.tsx": {
     "mtime": 1781640407.600917,
@@ -31,9 +31,141 @@
     "mtime": 1781676783.6935275,
     "hash": "be4b76d80282f9a91e9f3ef86f430b2a"
   },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\types.ts": {
+    "mtime": 1781680157.4104846,
+    "hash": "9fb97b2d0b469fe17f1fdfa377568fed"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\ArrivalStrip.tsx": {
+    "mtime": 1781680366.653129,
+    "hash": "83979945419cd14829fe763f3b504704"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\EditorialProofSection.tsx": {
+    "mtime": 1781680420.0103712,
+    "hash": "092b34f724b70de17c8e2df0b9746fa1"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\Hero.tsx": {
+    "mtime": 1781680366.6491356,
+    "hash": "3ca2946c060befc900d79ca1d93e7ddd"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\HouseDossierSection.tsx": {
+    "mtime": 1781680366.6701283,
+    "hash": "72f28137597de4c31ada6e95124f75e3"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\HouseIndexSection.tsx": {
+    "mtime": 1781680420.0113719,
+    "hash": "b6c9ae5839d33d1801522e67e6bba694"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\IntroBand.tsx": {
+    "mtime": 1781680366.6591296,
+    "hash": "179511dc12b3d6d9cef1dfe34f15cdc5"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\MenuShowcaseSection.tsx": {
+    "mtime": 1781680469.8908029,
+    "hash": "ec35769919528bfcbac2899292fee364"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\MomentsSection.tsx": {
+    "mtime": 1781680420.013444,
+    "hash": "00ef53eced0bf2643e4ab01dff99ddb8"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\PageRouteNav.tsx": {
+    "mtime": 1781680366.657131,
+    "hash": "a6a7e25c72c536f303d8284237cb2b2f"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\ProofStrip.tsx": {
+    "mtime": 1781680469.8918016,
+    "hash": "f0fc3f16b59a7b637f1a002a9a80d553"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\RhythmPanel.tsx": {
+    "mtime": 1781680420.0128849,
+    "hash": "4b48d8c931dd90092397858add31b1e6"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\SiteFooter.tsx": {
+    "mtime": 1781680517.553447,
+    "hash": "cf29c2b64424c21d0d9854f7109db51c"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\SiteHeader.tsx": {
+    "mtime": 1781680366.6411285,
+    "hash": "65bd109657774be643a6d7b6731aff04"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\SkipLinks.tsx": {
+    "mtime": 1781680366.6381304,
+    "hash": "4d76dafb5b0908aa5cd45136bb314088"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\SpaceCards.tsx": {
+    "mtime": 1781680469.8930857,
+    "hash": "7d42a1b225634d9fd9ebd8b82d9cd900"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\components\\VisitSection.tsx": {
+    "mtime": 1781680517.552439,
+    "hash": "39e50f43b3f1bc24972705c71e771dd4"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\data\\service.ts": {
+    "mtime": 1781680223.6478288,
+    "hash": "401f1a35810f3e748db895fa95219d53"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\data\\siteData.tsx": {
+    "mtime": 1781680223.6428277,
+    "hash": "bfa96da9dee5b3cd54bfed1effd26f1a"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\hooks\\useActiveSection.ts": {
+    "mtime": 1781680270.626912,
+    "hash": "ddd3215757be2ecc5a7f9c7115fe84c9"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\hooks\\useAddressCopy.ts": {
+    "mtime": 1781680270.6229198,
+    "hash": "5f138ac45b614711d49cbde1ae10ed6a"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\hooks\\useClock.ts": {
+    "mtime": 1781680270.6210806,
+    "hash": "a007707637aa6df3a027ecdc862509b9"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\hooks\\useCustomCursor.ts": {
+    "mtime": 1781681523.289297,
+    "hash": "7d973c95499e2c4348b6cfa2bae898c2"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\hooks\\useHeroDepth.ts": {
+    "mtime": 1781680270.6299157,
+    "hash": "b784741b5fc0e753ed58ab33b91329ce"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\hooks\\usePreviewController.ts": {
+    "mtime": 1781680302.9638288,
+    "hash": "707a8f3e7daf7c0113a1943457315d7e"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\hooks\\useSiteMotion.ts": {
+    "mtime": 1781681470.7300096,
+    "hash": "98b54dd0a2bcb25a7b25e7078f7da27e"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\preview\\gallery.ts": {
+    "mtime": 1781680223.655828,
+    "hash": "fd911a5ae265af6c4f65570f8f14ce59"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\preview\\ImagePreviewModal.tsx": {
+    "mtime": 1781680536.763518,
+    "hash": "2d942950f9ceda6f1d03ae794ea43fd7"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\preview\\types.ts": {
+    "mtime": 1781680157.416489,
+    "hash": "78f3be03d9482643cd8b7f160aebecf2"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\translate\\googleTranslate.ts": {
+    "mtime": 1781680157.4674888,
+    "hash": "383515b2a13c853046b82d70fa7bac22"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\translate\\GoogleTranslateWidget.tsx": {
+    "mtime": 1781680157.4914906,
+    "hash": "b65481b4fa937e642fe1727b95a3d468"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\translate\\LanguageMenu.tsx": {
+    "mtime": 1781682074.5379062,
+    "hash": "dbc784724e6a7b97b34dac2d3e5e5cf4"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\src\\utils\\classNames.ts": {
+    "mtime": 1781680157.4064825,
+    "hash": "046cd3aa038459e12c6300066e048c84"
+  },
   "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\tests\\home.spec.ts": {
-    "mtime": 1781678229.3158598,
-    "hash": "c5edcfe33893a815e4d55dd6902208d4"
+    "mtime": 1781682101.4821117,
+    "hash": "a6dad29121e1a5d478904f4343ef9626"
   },
   "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\index.html": {
     "mtime": 1781676793.8216374,
@@ -318,5 +450,13 @@
   "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\screenshots\\nero-visit-mobile.png": {
     "mtime": 1781673496.6161733,
     "hash": "7b4a4f93eb6bee85920c1060e6b3b333"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\test-results\\hero-research-pass\\optimized-desktop.png": {
+    "mtime": 1781682234.3522155,
+    "hash": "8adf6f6705303fede64293ba2fe5a02d"
+  },
+  "C:\\Users\\demosgod\\Desktop\\PROJECTS\\NeroWebsite\\test-results\\hero-research-pass\\optimized-mobile.png": {
+    "mtime": 1781682235.5465295,
+    "hash": "c0027a085b3b271dc143834297153bf8"
   }
 }

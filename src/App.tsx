@@ -48,7 +48,7 @@ function App() {
   const preview = usePreviewController(previewGallery)
   const { addressCopied, copyAddress } = useAddressCopy(venue.address)
 
-  useSiteMotion(heroRef)
+  useSiteMotion()
   useHeroDepth(heroRef)
   useCustomCursor(cursorRef)
 

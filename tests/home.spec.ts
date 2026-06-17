@@ -118,6 +118,24 @@ test('hero depth effects stay cinematic without adding fake actions', async ({ p
     .not.toEqual({ x: '0', y: '0' })
 })
 
+test('hero effects avoid expensive animated filters and backdrop blur', async ({ page }) => {
+  await page.goto('/')
+
+  const expensiveHeroStyles = await page.evaluate(() => ({
+    headerBackdrop: getComputedStyle(document.querySelector('.site-header') as HTMLElement).backdropFilter,
+    titleFilters: Array.from(document.querySelectorAll<HTMLElement>('.hero-title-line > span')).map(
+      (line) => getComputedStyle(line).filter,
+    ),
+    cardAnimations: Array.from(document.querySelectorAll<HTMLElement>('.hero-depth-card')).map(
+      (card) => getComputedStyle(card).animationName,
+    ),
+  }))
+
+  expect(expensiveHeroStyles.headerBackdrop).toBe('none')
+  expect(expensiveHeroStyles.titleFilters).toEqual(['none', 'none', 'none'])
+  expect(expensiveHeroStyles.cardAnimations).toEqual(['none', 'none'])
+})
+
 test('favicon uses the supplied Nero store logo file', async ({ page }) => {
   await page.goto('/')
 

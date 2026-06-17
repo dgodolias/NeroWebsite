@@ -35,9 +35,9 @@ export const greekContent = {
     visit: 'Πήγαινε στο visit',
   },
   nav: {
-    space: 'Χώρος',
-    menu: 'Menu',
-    visit: 'Visit',
+    space: 'ΧΩΡΟΣ',
+    menu: 'ΜΕΝΟΥ',
+    visit: 'ΕΠΙΣΚΕΨΗ',
   },
   quickActions: {
     menu: 'Άνοιγμα menu Nero',
@@ -95,7 +95,7 @@ export const greekContent = {
   pageRoutes: [
     { label: 'Χώρος', detail: 'Αυλή / lounge' },
     { label: 'Menu', detail: 'QuaR κατάλογος' },
-    { label: 'Visit', detail: 'Χάρτης / τηλέφωνο' },
+    { label: 'Επίσκεψη', detail: 'Χάρτης / τηλέφωνο' },
   ],
   intro: {
     eyebrow: 'Nero / Νέο Ηράκλειο',
